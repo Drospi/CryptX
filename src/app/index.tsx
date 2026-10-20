@@ -3,6 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
 
+import ButtonComponent from '@/components/button';
 import DescriptionComponent from '@/components/description';
 import HeadComponent from '@/components/head';
 
@@ -11,7 +12,7 @@ export default function HomeScreen() {
       <SafeAreaView style={styles.safeArea}>
         <HeadComponent />
         <DescriptionComponent />
-
+        <ButtonComponent />
       </SafeAreaView>
     
   );
